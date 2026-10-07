@@ -1,0 +1,5 @@
+SKILL_GROUPS={"Programming":["python","java","c++","javascript","typescript","sql"],"AI / ML":["machine learning","deep learning","artificial intelligence","nlp","tensorflow","pytorch","scikit-learn","computer vision"],"Web":["html","css","react","angular","node.js","bootstrap","rest api"],"Cloud / DevOps":["aws","azure","docker","kubernetes","jenkins","terraform","linux","ci/cd"],"Data":["pandas","numpy","excel","power bi","tableau","statistics","data analysis","data visualization"],"Security":["cybersecurity","network security","ethical hacking","penetration testing","siem","firewall","cryptography"],"Design":["figma","adobe xd","ui design","ux design","wireframing","prototyping","user research"],"Database":["mysql","postgresql","oracle","database administration","database management","query optimization"]}
+def extract_skills(text):
+ t=text.lower();return [s for g in SKILL_GROUPS.values() for s in g if s in t]
+def group_skills(skills):
+ return {g:[s for s in ss if s in skills] for g,ss in SKILL_GROUPS.items() if any(s in skills for s in ss)}

@@ -1,0 +1,22 @@
+Dataset size: 180
+Number of job roles: 12
+Test accuracy: 100.00%
+
+                           precision    recall  f1-score   support
+
+              AI Engineer       1.00      1.00      1.00         3
+        Backend Developer       1.00      1.00      1.00         3
+         Business Analyst       1.00      1.00      1.00         3
+           Cloud Engineer       1.00      1.00      1.00         3
+    Cybersecurity Analyst       1.00      1.00      1.00         3
+             Data Analyst       1.00      1.00      1.00         3
+   Database Administrator       1.00      1.00      1.00         3
+          DevOps Engineer       1.00      1.00      1.00         3
+Machine Learning Engineer       1.00      1.00      1.00         3
+       Software Developer       1.00      1.00      1.00         3
+           UI/UX Designer       1.00      1.00      1.00         3
+            Web Developer       1.00      1.00      1.00         3
+
+                 accuracy                           1.00        36
+                macro avg       1.00      1.00      1.00        36
+             weighted avg       1.00      1.00      1.00        36
